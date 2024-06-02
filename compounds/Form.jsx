@@ -50,7 +50,7 @@ const Form = () => {
         if (validate()) {
             Alert.alert("Form Submitted", "Your form has been successfully submitted.");
         }
-        else{
+        else {
             Alert.alert("Fill the all content...!");
         }
     };
